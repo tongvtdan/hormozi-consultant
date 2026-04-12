@@ -44,26 +44,26 @@ For direct Claude.ai use or any LLM interface — paste `Documents/SKILL.md` as 
 
 **7 Workflows:**
 
-| Workflow | Trigger |
-|---|---|
-| 1. Value Equation Scorer | "Score my offer" / "Why isn't this converting?" |
-| 2. Grand Slam Offer Builder | "Build me an offer" / "Make this irresistible" |
-| 3. Lead Magnet Generator | "Get me more leads" / "Build a lead gen system" |
-| 4. Hooks & Headline Engine | "Write hooks" / "Ad copy" / "Content ideas" |
-| 5. Market Breakdown System | "Analyze this market" / "Validate my idea" |
-| 6. Scale OS | "How do I scale?" / "I'm the bottleneck" |
-| 7. Proof Stack Builder | "Build credibility" / "Make my claims believable" |
+| Workflow                    | Trigger                                           |
+| --------------------------- | ------------------------------------------------- |
+| 1. Value Equation Scorer    | "Score my offer" / "Why isn't this converting?"   |
+| 2. Grand Slam Offer Builder | "Build me an offer" / "Make this irresistible"    |
+| 3. Lead Magnet Generator    | "Get me more leads" / "Build a lead gen system"   |
+| 4. Hooks & Headline Engine  | "Write hooks" / "Ad copy" / "Content ideas"       |
+| 5. Market Breakdown System  | "Analyze this market" / "Validate my idea"        |
+| 6. Scale OS                 | "How do I scale?" / "I'm the bottleneck"          |
+| 7. Proof Stack Builder      | "Build credibility" / "Make my claims believable" |
 
 ### Path 2 — Modular Plugins (Recommended)
 
 Install individual plugins for each domain. Each plugin includes Claude skill, ChatGPT GPT config, Gemini Gem config, and universal LLM system prompt.
 
-| Plugin | Framework | Commands |
-|---|---|---|
-| `hormozi-offers` | $100M Offers | `/score-offer` · `/build-offer` · `/name-offer` · `/build-proof` |
-| `hormozi-leads` | $100M Leads | `/gen-leads` · `/build-magnet` · `/break-market` · `/write-hooks` |
-| `hormozi-scale` | ACQ Scale | `/scale-audit` · `/bottleneck-finder` · `/hire-next` · `/build-systems` |
-| `hormozi-money` | $100M Money | `/model-picker` · `/price-architect` · `/ltv-optimizer` · `/more-better-new` |
+| Plugin           | Framework    | Commands                                                                     |
+| ---------------- | ------------ | ---------------------------------------------------------------------------- |
+| `hormozi-offers` | $100M Offers | `/score-offer` · `/build-offer` · `/name-offer` · `/build-proof`             |
+| `hormozi-leads`  | $100M Leads  | `/gen-leads` · `/build-magnet` · `/break-market` · `/write-hooks`            |
+| `hormozi-scale`  | ACQ Scale    | `/scale-audit` · `/bottleneck-finder` · `/hire-next` · `/build-systems`      |
+| `hormozi-money`  | $100M Money  | `/model-picker` · `/price-architect` · `/ltv-optimizer` · `/more-better-new` |
 
 ```bash
 # Install all 4 plugins at once
@@ -92,11 +92,7 @@ See `hormozi-os/INSTALL.md` for full setup instructions for Claude, ChatGPT, Gem
 
 ## Sources
 
-- **$100M Offers** — Alex Hormozi (Acquisition.com Volume I)
-- **$100M Leads** — Alex Hormozi (Acquisition.com Volume II)
-- **$100M Proof Checklist** — Alex Hormozi
-- **ACQ Closer Handbook** — Alex Hormozi
-- **ACQ Scaling Framework** — Acquisition.com
+- **Hormozi and Acquisition** — Acquisition.com
 
 ---
 
