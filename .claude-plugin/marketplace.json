@@ -1,0 +1,55 @@
+{
+  "name": "hormozi-os",
+  "version": "1.0.0",
+  "description": "The complete Hormozi business OS — four independently installable plugins that operationalize $100M Offers, $100M Leads, ACQ Scale, and $100M Money Models across Claude, ChatGPT, Gemini, and any OpenAI-compatible LLM.",
+  "author": {
+    "name": "Dan Tong",
+    "email": "tongvtdan@gmail.com",
+    "url": "https://github.com/tongvtdan/hormozi-consultant"
+  },
+  "homepage": "https://github.com/tongvtdan/hormozi-consultant",
+  "repository": "https://github.com/tongvtdan/hormozi-consultant",
+  "license": "MIT",
+  "keywords": [
+    "hormozi",
+    "acquisition",
+    "grand-slam-offer",
+    "lead-generation",
+    "scaling",
+    "money-models",
+    "value-equation",
+    "core-four",
+    "business-os",
+    "$100M"
+  ],
+  "plugins": [
+    {
+      "name": "hormozi-offers",
+      "path": "./hormozi-os/hormozi-offers",
+      "description": "Score, build, name, and proof-stack Grand Slam Offers using the $100M Offers framework",
+      "version": "1.0.0",
+      "commands": ["score-offer", "build-offer", "name-offer", "build-proof"]
+    },
+    {
+      "name": "hormozi-leads",
+      "path": "./hormozi-os/hormozi-leads",
+      "description": "Build lead gen systems, lead magnets, market analyses, and hooks using the $100M Leads framework",
+      "version": "1.0.0",
+      "commands": ["gen-leads", "build-magnet", "break-market", "write-hooks"]
+    },
+    {
+      "name": "hormozi-scale",
+      "path": "./hormozi-os/hormozi-scale",
+      "description": "Audit bottlenecks, calculate LTV:CAC, hire correctly, and build systems using the ACQ scaling framework",
+      "version": "1.0.0",
+      "commands": ["scale-audit", "bottleneck-finder", "hire-next", "build-systems"]
+    },
+    {
+      "name": "hormozi-money",
+      "path": "./hormozi-os/hormozi-money",
+      "description": "Select revenue models, architect pricing, optimize LTV, and apply More/Better/New using the $100M Money Models framework",
+      "version": "1.0.0",
+      "commands": ["model-picker", "price-architect", "ltv-optimizer", "more-better-new"]
+    }
+  ]
+}
