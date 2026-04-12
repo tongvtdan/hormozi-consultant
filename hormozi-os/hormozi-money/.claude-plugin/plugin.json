@@ -1,7 +1,7 @@
 {
   "name": "hormozi-money",
   "version": "1.0.0",
-  "description": "Operationalize Alex Hormozi's $100M Money Models framework — select the right revenue model, architect pricing for maximum value extraction, optimize LTV, and apply the More/Better/New decision framework to every revenue decision. Works across products, subscriptions, services, and asset businesses at any stage.",
+  "description": "Operationalize Alex Hormozi's $100M Money Models framework — select the right revenue model, architect pricing for maximum value extraction, optimize LTV, and apply the More/Better/New decision framework to every revenue decision. Works across products, subscriptions, services, and asset businesses at any stage. Commands: /hormozi-money:model-picker, /hormozi-money:price-architect, /hormozi-money:ltv-optimizer, /hormozi-money:more-better-new.",
   "author": {
     "name": "Dan Tong",
     "email": "tongvtdan@gmail.com",
@@ -18,34 +18,6 @@
     "value-equation",
     "monetization",
     "$100M-money"
-  ],
-  "commands": [
-    {
-      "name": "model-picker",
-      "description": "Select the optimal revenue model (product / subscription / service / asset) for a business and design the monetization stack",
-      "file": "commands/model-picker.md"
-    },
-    {
-      "name": "price-architect",
-      "description": "Design a complete pricing architecture — anchor, core, upsell, and continuity — to maximize revenue per customer",
-      "file": "commands/price-architect.md"
-    },
-    {
-      "name": "ltv-optimizer",
-      "description": "Diagnose and improve customer lifetime value across all LTV levers: retention, upsell, pricing, and frequency",
-      "file": "commands/ltv-optimizer.md"
-    },
-    {
-      "name": "more-better-new",
-      "description": "Apply the More/Better/New revenue decision framework to determine the highest-ROI growth move at the current stage",
-      "file": "commands/more-better-new.md"
-    }
-  ],
-  "skills": [
-    {
-      "name": "money",
-      "file": "skills/money/SKILL.md"
-    }
   ],
   "homepage": "https://github.com/tongvtdan/hormozi-os",
   "repository": "https://github.com/tongvtdan/hormozi-os",
