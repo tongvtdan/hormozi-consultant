@@ -1,2 +1,44 @@
-/Documents
-/Documents
+# Source PDFs and books (local reference only — not pushed to repo)
+Documents/books/
+Documents/*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+.env
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Secrets
+.env
+.env.local
+*.pem
+*.key
+
+# Logs
+*.log
+logs/
+
+# Temp / backup
+*.tmp
+*.bak
+*.backup
+~*

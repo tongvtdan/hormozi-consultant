@@ -1,12 +1,12 @@
 # Hormozi Consultant
 
-**A complete AI skill system built from Alex Hormozi's $100M frameworks — deployable on Claude, ChatGPT, Gemini, Qwen, and any OpenAI-compatible LLM.**
+**A complete AI skill system built from Alex Hormozi's $100M frameworks — deployable on Claude, ChatGPT, Gemini, and any OpenAI-compatible LLM.**
 
 ---
 
-## What's In This Folder
+## What's In This Repo
 
-This workspace contains everything needed to run the Hormozi Offer OS as an AI consultant — source materials, Claude plugin, ChatGPT system prompts, Gemini Gems config, and universal LLM support.
+This workspace packages Alex Hormozi's business-building system into installable AI skills across four domains: Offers, Leads, Scale, and Money Models. Two deployment paths are available depending on your LLM setup.
 
 ---
 
@@ -15,44 +15,34 @@ This workspace contains everything needed to run the Hormozi Offer OS as an AI c
 ```
 hormozi-consultant/
 ├── README.md                          ← You are here
-├── Documents/                         ← Skill files + reference docs (quick access)
-│   ├── SKILL.md                       ← v2.0 skill brain (all 7 workflows)
-│   ├── value-equation-deep-dive.md    ← 10 scored examples
+├── Documents/                         ← Quick-reference skill files (local use)
+│   ├── SKILL.md                       ← Consolidated v2.0 skill (7 workflows, single file)
+│   ├── value-equation-deep-dive.md    ← 10 scored examples + improvement scenarios
 │   ├── grand-slam-offer-examples.md   ← 5 complete Grand Slam Offer builds
 │   ├── lead-gen-playbook.md           ← Lead magnet + Core Four + outreach scripts
 │   ├── market-analysis-templates.md   ← 8 research templates (ICP, TAM, Thiel)
-│   ├── offer-scorer.js                ← Programmatic Value Equation calculator
-│   └── books/                         ← Source PDFs
-│       ├── 100M Offers How To Make Offers So Good...pdf
-│       ├── 100M Leads How to Get Strangers To Want To Buy...pdf
-│       ├── 100M Proof Checklist.pdf
-│       ├── ACQ Closer Handbook.pdf
-│       └── 100M Offers Course/ (7 checklists)
-│           ├── 1-Pick-Your-Niche-Checklist.pdf
-│           ├── 2-Pricing-Value-Checklist.pdf
-│           ├── 3-Offer+Creation+Checklist.pdf
-│           ├── 4-Bonus-Creation-Checklist.pdf
-│           ├── 5-Unbeatable-Guarantee-Checklist.pdf
-│           ├── 6-Scarcity-Urgency-Checklist.pdf
-│           └── 7-Product-Naming-Checklist.pdf
-└── hormozi-offer-os/                  ← Full plugin repo (installable)
-    ├── README.md                      ← Plugin install instructions
-    ├── INSTALL.md                     ← Detailed setup guide
+│   └── offer-scorer.js                ← Programmatic Value Equation calculator
+└── hormozi-os/                        ← Modular plugin mono-repo (4 sub-plugins)
+    ├── README.md                      ← Full install instructions
+    ├── INSTALL.md                     ← Setup guide for all LLM platforms
+    ├── LICENSE
     ├── .claude-plugin/
     │   └── marketplace.json           ← Claude marketplace metadata
-    ├── hormozi-offer-os/              ← Claude plugin package
-    │   ├── .claude-plugin/plugin.json ← Plugin manifest v2.0.0
-    │   ├── skills/offer-os/SKILL.md   ← Full 7-workflow skill
-    │   ├── skills/offer-os/references/← 4 deep-dive reference docs
-    │   └── commands/                  ← 7 slash commands
-    ├── chatgpt/                       ← ChatGPT Custom GPT setup
-    ├── gemini/                        ← Gemini Gems setup
-    └── universal/                     ← Qwen/Llama/Mistral/DeepSeek setup
+    ├── hormozi-offers/                ← $100M Offers framework
+    ├── hormozi-leads/                 ← $100M Leads framework
+    ├── hormozi-scale/                 ← ACQ Scale framework
+    └── hormozi-money/                 ← $100M Money Models framework
 ```
 
 ---
 
-## 7 Workflows (Quick Reference)
+## Two Deployment Paths
+
+### Path 1 — Quick Install (Single Consolidated Skill)
+
+For direct Claude.ai use or any LLM interface — paste `Documents/SKILL.md` as your system prompt. Covers all 7 workflows in one file.
+
+**7 Workflows:**
 
 | Workflow | Trigger |
 |---|---|
@@ -63,6 +53,30 @@ hormozi-consultant/
 | 5. Market Breakdown System | "Analyze this market" / "Validate my idea" |
 | 6. Scale OS | "How do I scale?" / "I'm the bottleneck" |
 | 7. Proof Stack Builder | "Build credibility" / "Make my claims believable" |
+
+### Path 2 — Modular Plugins (Recommended)
+
+Install individual plugins for each domain. Each plugin includes Claude skill, ChatGPT GPT config, Gemini Gem config, and universal LLM system prompt.
+
+| Plugin | Framework | Commands |
+|---|---|---|
+| `hormozi-offers` | $100M Offers | `/score-offer` · `/build-offer` · `/name-offer` · `/build-proof` |
+| `hormozi-leads` | $100M Leads | `/gen-leads` · `/build-magnet` · `/break-market` · `/write-hooks` |
+| `hormozi-scale` | ACQ Scale | `/scale-audit` · `/bottleneck-finder` · `/hire-next` · `/build-systems` |
+| `hormozi-money` | $100M Money | `/model-picker` · `/price-architect` · `/ltv-optimizer` · `/more-better-new` |
+
+```bash
+# Install all 4 plugins at once
+claude marketplace install tongvtdan/hormozi-os
+
+# Or install individually
+claude plugin install ./hormozi-os/hormozi-offers
+claude plugin install ./hormozi-os/hormozi-leads
+claude plugin install ./hormozi-os/hormozi-scale
+claude plugin install ./hormozi-os/hormozi-money
+```
+
+See `hormozi-os/INSTALL.md` for full setup instructions for Claude, ChatGPT, Gemini, and universal LLMs.
 
 ---
 
@@ -78,26 +92,11 @@ hormozi-consultant/
 
 ## Sources
 
-All content built from primary sources:
 - **$100M Offers** — Alex Hormozi (Acquisition.com Volume I)
 - **$100M Leads** — Alex Hormozi (Acquisition.com Volume II)
-- **$100M Proof Checklist** — Alex Hormozi (2024)
+- **$100M Proof Checklist** — Alex Hormozi
 - **ACQ Closer Handbook** — Alex Hormozi
-- **100M Offers Course** — 7 checklists
-
----
-
-## Install the Claude Plugin
-
-```bash
-# From this folder
-claude plugin install ./hormozi-offer-os
-
-# From GitHub
-claude plugin install https://github.com/tongvtdan/hormozi-offer-os
-```
-
-See `hormozi-offer-os/INSTALL.md` for full setup instructions for Claude, ChatGPT, Gemini, and universal LLMs.
+- **ACQ Scaling Framework** — Acquisition.com
 
 ---
 
