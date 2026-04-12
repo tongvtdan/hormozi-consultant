@@ -1,0 +1,27 @@
+{
+  "name": "hormozi-leads",
+  "version": "1.0.0",
+  "description": "Hormozi $100M Leads framework — Core Four channels, lead magnet design, market scoring, and hooks engine. Compatible with any OpenAI-compatible API.",
+  "system_prompt_file": "system-prompt.md",
+  "suggested_parameters": {
+    "temperature": 0.7,
+    "max_tokens": 4096,
+    "top_p": 0.95
+  },
+  "compatible_with": [
+    "openai-api",
+    "azure-openai",
+    "mistral",
+    "groq",
+    "ollama",
+    "llama-cpp",
+    "anthropic-api",
+    "cohere"
+  ],
+  "example_prompts": [
+    "Build a lead gen system for my [business description]",
+    "Design a lead magnet for [offer + ICP]",
+    "Score this market: [market description]",
+    "Write 5 hooks for [topic, ICP, platform]"
+  ]
+}

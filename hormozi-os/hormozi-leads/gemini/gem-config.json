@@ -1,0 +1,12 @@
+{
+  "name": "Hormozi Leads Gem",
+  "description": "Your $100M lead generation system — built on Alex Hormozi's Core Four framework. Warm outreach scripts, lead magnet design, market scoring, and hook writing — all sequenced for your exact business stage.",
+  "instructions_file": "system-prompt.md",
+  "conversation_starters": [
+    "Build a lead gen system for my business: [describe it]",
+    "Create a lead magnet for my offer: [describe it]",
+    "Score and niche down this market: [market description]",
+    "Write 5 hooks for [topic, ICP, platform]"
+  ],
+  "model": "gemini-1.5-pro"
+}

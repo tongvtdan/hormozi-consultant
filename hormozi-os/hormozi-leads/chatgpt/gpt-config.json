@@ -1,0 +1,17 @@
+{
+  "name": "Hormozi Leads GPT",
+  "description": "Build a $100M leads machine. Warm outreach, content, cold outreach, paid ads — sequenced correctly for your business stage. Generate lead magnets, market analyses, and high-converting hooks using Alex Hormozi's $100M Leads framework.",
+  "instructions_file": "system-prompt.md",
+  "conversation_starters": [
+    "Build me a lead gen system for my [business type]",
+    "Design a lead magnet for my [offer + ICP]",
+    "Score this market and help me find my entry niche: [market description]",
+    "Write 5 hooks for [topic/offer/platform]"
+  ],
+  "capabilities": {
+    "web_browsing": false,
+    "image_generation": false,
+    "code_interpreter": false
+  },
+  "model": "gpt-4o"
+}

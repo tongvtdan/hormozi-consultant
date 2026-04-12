@@ -1,139 +1,197 @@
 # Market Analysis Templates
-
-Structured output templates for Hormozi-style market breakdown + Thiel monopoly positioning.
-
----
-
-## Template 1: Full Market Breakdown
-
-### Market: [Niche Name]
-
-**TAM / SAM / SOM**
-
-| Metric | Size | Basis |
-|---|---|---|
-| TAM | $X billion | All possible buyers globally |
-| SAM | $X million | Reachable segment via our channels |
-| SOM (Yr 1) | $X million | Realistic capture with current resources |
-
-**Top 5 Demand Trends**
-1. [Trend + why it's growing]
-2. [Trend + why it's growing]
-3. [Trend + why it's growing]
-4. [Trend + why it's growing]
-5. [Trend + why it's growing]
-
-**Underserved Opportunities**
-
-| Opportunity | Why Underserved | Revenue Potential |
-|---|---|---|
-| [Gap 1] | [Reason incumbents ignore it] | [Est. size] |
-| [Gap 2] | [Reason incumbents ignore it] | [Est. size] |
-| [Gap 3] | [Reason incumbents ignore it] | [Est. size] |
-
-**Where Money Is Already Flowing**
-- Segment: [Describe] → Investor/buyer activity: [Evidence]
-- Segment: [Describe] → Investor/buyer activity: [Evidence]
+**Source: $100M Offers, Chapter 4 — "A Starving Crowd" + Acquisition.com frameworks**
 
 ---
 
-## Template 2: Competitive Landscape Map
+## The Starving Crowd Rule (Verbatim from Book)
 
-| Competitor | Core Offer | Price Point | #1 Customer Complaint | Our Edge |
+> "If you were going to open a hotdog stand, and you could only have one advantage over your competitors... which would it be?"
+> After all student answers: "A starving crowd."
+
+**Market hierarchy:** Starving Crowd > Offer Strength > Persuasion Skills
+
+A great offer in a bad market fails. A mediocre offer in a great market can succeed.
+**Don't be romantic about your audience. Serve the people who can pay you what you're worth.**
+
+---
+
+## Template 1: Market Selection Scorecard (4 Criteria)
+
+Rate each criterion 1–10. Any criterion scoring ≤ 3 is a potential deal-breaker.
+
+| Criterion | Score (1–10) | Evidence / Notes |
+|---|---|---|
+| **Massive Pain** | | Do they desperately NEED this? (not just want) |
+| **Purchasing Power** | | Can they afford premium pricing? Income/revenue level? |
+| **Easy to Target** | | Associations, groups, channels, lists? |
+| **Growing Market** | | YoY growth rate? Industry tailwinds/headwinds? |
+| **TOTAL** | /40 | |
+
+**Interpretation:** 32–40 = Exceptional · 24–31 = Good · 16–23 = Normal (niche down) · <16 = Danger zone
+
+**The Three Markets That Will Always Exist:** Health · Wealth · Relationships
+
+---
+
+## Template 2: Niche Ladder (4-Level Drill-Down)
+
+**Source: $100M Offers — Niche Pricing Example ($19 → $2,000 for same content)**
+
+| Level | Description | Estimated Price Multiple |
+|---|---|---|
+| Level 0: Generic | "Time Management" | 1x ($19) |
+| Level 1: Category | "Time Management for Sales Professionals" | 5x ($99) |
+| Level 2: Sub-category | "Time Management for B2B Outbound Sales Reps" | 25x ($499) |
+| Level 3: Ultra-niche | "Time Management for B2B Power Tools Outbound Sales Reps" | 100x ($2,000) |
+
+**Your niche ladder:**
+
+| Level | Your Niche Description | Estimated Price |
+|---|---|---|
+| Level 0: Broad market | | |
+| Level 1: Category | | |
+| Level 2: Sub-category | | |
+| Level 3: Ultra-niche (ICP) | | |
+| Level 4: Avatar statement | "I solve [problem] for [specific person] in [unique way] that reverses [deepest fear]" | |
+
+**Rule:** Under $10M/year → always niche down. Above $10M → evaluate TAM before broadening.
+
+---
+
+## Template 3: TAM / SAM / SOM Sizing
+
+| Metric | Size | Basis for Estimate |
+|---|---|---|
+| **TAM** (Total Addressable Market) | $X billion | All possible buyers globally who have this problem |
+| **SAM** (Serviceable Addressable Market) | $X million | Who you can realistically reach via your channels |
+| **SOM Year 1** (Serviceable Obtainable) | $X | Realistic capture with current team + budget |
+| **SOM Year 3** | $X | With scaled team + budget |
+
+---
+
+## Template 4: Competitive Landscape Map
+
+| Competitor | Core Offer | Price Point | #1 Customer Complaint | The Gap We Fill |
 |---|---|---|---|---|
-| [Name] | [What they sell] | [$] | [From reviews/forums] | [How we win] |
-| [Name] | [What they sell] | [$] | [From reviews/forums] | [How we win] |
-| [Name] | [What they sell] | [$] | [From reviews/forums] | [How we win] |
+| [Name] | | | | |
+| [Name] | | | | |
+| [Name] | | | | |
 
 **Category Position Statement:**
-"Unlike [category leader], we [differentiator] for [specific ICP] so they can [outcome] without [key objection]."
+> "Unlike [category leader], we [differentiator] for [specific ICP] so they can [outcome] without [key objection]."
 
 ---
 
-## Template 3: ICP (Ideal Customer Profile) Card
+## Template 5: ICP (Ideal Customer Profile) Card
 
 ```
+═══════════════════════════════════
+         ICP CARD
+═══════════════════════════════════
+
 DEMOGRAPHIC
-- Age range: 
-- Gender (if relevant): 
-- Job title / role: 
-- Income / company revenue: 
-- Geography: 
+  Age range:          
+  Job title / role:   
+  Company size / revenue: 
+  Income level:       
+  Geography:          
 
-PSYCHOGRAPHIC
-- Top 3 fears:
-- Top 3 aspirations:
-- Identity they want to project:
-- Communities they belong to:
-- Influences they trust (people/media):
+PSYCHOGRAPHIC (the real drivers)
+  Top 3 fears:        1.  2.  3.
+  Top 3 aspirations:  1.  2.  3.
+  Identity they want to project:
+  Communities/associations they belong to:
+  Influencers/media they trust:
 
-BEHAVIORAL
-- Where they search for solutions:
-- What they've already tried:
-- Why those attempts failed:
-- Willingness to pay (price anchor): $
+PAIN PROFILE
+  #1 painful problem RIGHT NOW:
+  How long have they had this problem:
+  What have they already tried that failed:
+  Why did those attempts fail:
+  Cost of NOT solving this (emotional + financial):
 
-BUYING TRIGGERS
-- Event that activates purchase: 
-- Objection #1: 
-- Objection #2: 
-- Decision timeline: 
+BUYING BEHAVIOR
+  Where they search for solutions:
+  Willingness to pay: $
+  Decision timeline:
+  Objection #1:
+  Objection #2:
+  Buying trigger (event that activates the purchase):
+  Decision-making authority: □ Solo □ Partner □ Committee
+
+BEST PROOF TYPE FOR THIS ICP
+  Most persuasive testimonial format: [from Proof Hierarchy]
+  Identical customer case study needed: Y / N
+  Numbers that matter most to them:
+═══════════════════════════════════
 ```
 
 ---
 
-## Template 4: Monopoly Position Framework (Thiel Logic)
+## Template 6: Market Demand Signal Scorecard
 
-**The 4 Monopoly Characteristics — Score yours (0–10 each):**
-
-| Characteristic | Description | Your Score | How to Strengthen |
-|---|---|---|---|
-| Proprietary Technology | 10x better than alternatives in some dimension | /10 | |
-| Network Effects | Product gets better as more people use it | /10 | |
-| Economies of Scale | Costs drop significantly as you grow | /10 | |
-| Brand | Strong enough that people pay premium for name alone | /10 | |
-
-**Total Monopoly Score:** /40
-
-**Interpretation:**
-- 0–10: Commodity. Compete only on price. Unsustainable.
-- 11–20: Niche player. Defensible short-term. Needs one strong moat.
-- 21–30: Real business. Growing moat. Worth scaling.
-- 31–40: Category leader potential. Build fast before competitors respond.
-
-**Your Wedge Strategy:**
-"We will dominate [specific narrow niche] first before expanding to [adjacent market]."
+| Signal | Score (1-10) | Evidence |
+|---|---|---|
+| Pain level (suffering = high score) | | |
+| Purchasing power (ability to pay premium) | | |
+| Market accessibility (reach via channels) | | |
+| Growth trajectory (industry expanding) | | |
+| Prior buying behavior (already buying solutions) | | |
+| Urgency (time-sensitive problem) | | |
+| **TOTAL** | /60 | |
 
 ---
 
-## Template 5: Problem Prioritization Ranking
+## Template 7: Monopoly Position Analysis (Thiel Logic)
 
-| Problem | Urgency (1–10) | Willingness to Pay (1–10) | Growth Rate | Complaint Frequency | Priority Score |
-|---|---|---|---|---|---|
-| [Problem 1] | | | | | |
-| [Problem 2] | | | | | |
-| [Problem 3] | | | | | |
-| [Problem 4] | | | | | |
-| [Problem 5] | | | | | |
+| Question | Your Answer |
+|---|---|
+| What do we have that no one else can copy? | |
+| Network effects: does value increase with more users? | |
+| Switching costs: how painful is it to leave us? | |
+| Proprietary tech/process/data: what's defensible? | |
+| Brand: are we building something memorable? | |
+| Are we competing in an existing category or creating a new one? | |
+| What is our monopoly path in 5 years? | |
 
-**Priority Score** = Urgency × WTP × (Growth Rate factor: slow=1, medium=1.5, fast=2)
-
-**Rule:** Only build for problems with Priority Score > 50 AND where you have an unfair advantage in the solution.
+**Category-of-one test:** Can a prospect compare your offer to a competitor's? If yes — redesign the offer until it's incomparable.
 
 ---
 
-## Template 6: Entry Wedge Decision
+## Template 8: Market Entry Recommendation
 
-Choose the entry wedge that gives you the fastest path to 10 paying customers:
+```
+MARKET BRIEF
+═════════════════════════════════════════
 
-| Wedge Type | Best For | Risk | Speed |
-|---|---|---|---|
-| Niche domination | Known market, underserved segment | Low | Medium |
-| Premium tier of existing category | Commoditized market | Medium | Fast |
-| New category creation | Novel problem or solution | High | Slow |
-| Adjacent market expansion | Strong existing base | Low | Fast |
-| Geographic arbitrage | Proven model in new region | Low | Fast |
+MARKET:          [Name]
+NICHE ENTRY:     [Level 3–4 niche]
+ICP:             [Avatar statement]
 
-**Recommended wedge for your context:** [Determined by market analysis above]
+MARKET SCORE:    [X]/40
+  Pain:          [X]/10
+  Money:         [X]/10
+  Targeting:     [X]/10
+  Growth:        [X]/10
 
-**Rationale:** [Why this gives you the fastest path to first 10 customers with defensibility]
+TAM/SAM/SOM:     [Sizes]
+
+TOP 3 GAPS (Underserved Opportunities):
+  1. [Gap] — Why underserved: [reason] — Est. size: [X]
+  2. [Gap] — Why underserved: [reason] — Est. size: [X]
+  3. [Gap] — Why underserved: [reason] — Est. size: [X]
+
+RECOMMENDED ENTRY WEDGE:
+  [Specific offer to enter with and why]
+
+MONOPOLY PATH:
+  [How this becomes defensible in 3–5 years]
+
+COMPETITIVE POSITION:
+  "Unlike [leader], we [differentiator] for [ICP]
+   so they can [outcome] without [key objection]."
+
+NEXT ACTION:
+  [Build offer / validate via warm outreach / build lead magnet]
+═════════════════════════════════════════
+```

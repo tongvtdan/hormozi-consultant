@@ -1,0 +1,27 @@
+{
+  "name": "hormozi-money",
+  "version": "1.0.0",
+  "description": "Hormozi $100M Money Models framework — 4 revenue models, pricing architecture, LTV optimization, and More/Better/New growth decisions. Compatible with any OpenAI-compatible API.",
+  "system_prompt_file": "system-prompt.md",
+  "suggested_parameters": {
+    "temperature": 0.7,
+    "max_tokens": 4096,
+    "top_p": 0.95
+  },
+  "compatible_with": [
+    "openai-api",
+    "azure-openai",
+    "mistral",
+    "groq",
+    "ollama",
+    "llama-cpp",
+    "anthropic-api",
+    "cohere"
+  ],
+  "example_prompts": [
+    "What revenue model should I use? [describe business]",
+    "Design my pricing architecture: [offer + ICP + current price]",
+    "Optimize my LTV: [business + numbers]",
+    "More, Better, or New? [describe current stage]"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Hormozi Money Gem",
+  "description": "Revenue model selection, pricing design, LTV optimization, and the More/Better/New growth framework — all from Alex Hormozi's $100M Money Models playbook.",
+  "instructions_file": "system-prompt.md",
+  "conversation_starters": [
+    "What's the best revenue model for my business? [describe it]",
+    "Design my pricing architecture: [offer + ICP + current price]",
+    "Optimize my LTV: [business + current numbers]",
+    "More, Better, or New? [current stage + situation]"
+  ],
+  "model": "gemini-1.5-pro"
+}

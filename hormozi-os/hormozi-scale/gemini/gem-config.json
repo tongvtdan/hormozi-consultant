@@ -1,0 +1,12 @@
+{
+  "name": "Hormozi Scale Gem",
+  "description": "Scale your business past its current ceiling — bottleneck audits, LTV:CAC analysis, hiring blueprints, and systems automation using Alex Hormozi's ACQ framework.",
+  "instructions_file": "system-prompt.md",
+  "conversation_starters": [
+    "Audit my business for scale readiness: [describe it]",
+    "Find my biggest bottleneck: [describe symptoms]",
+    "Who do I hire next? [describe your team and tasks]",
+    "Build a system for: [describe the process]"
+  ],
+  "model": "gemini-1.5-pro"
+}

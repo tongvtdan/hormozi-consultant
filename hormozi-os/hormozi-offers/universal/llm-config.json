@@ -1,0 +1,11 @@
+{
+  "compatible_models": [
+    { "provider": "Alibaba", "model": "qwen2.5-72b-instruct", "role_key": "system", "api_format": "openai" },
+    { "provider": "Meta", "model": "llama-3.1-70b-instruct", "role_key": "system", "api_format": "openai" },
+    { "provider": "Mistral", "model": "mistral-large-latest", "role_key": "system", "api_format": "openai" },
+    { "provider": "DeepSeek", "model": "deepseek-v3", "role_key": "system", "api_format": "openai" },
+    { "provider": "Cohere", "model": "command-r-plus", "role_key": "system", "api_format": "openai" }
+  ],
+  "usage_note": "Paste universal/system-prompt.md as the system message in any OpenAI-compatible API call.",
+  "knowledge_loading": "Pre-load all 4 reference docs from skills/offers/references/ into context, or use RAG."
+}

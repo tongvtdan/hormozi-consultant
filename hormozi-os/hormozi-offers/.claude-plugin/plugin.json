@@ -1,0 +1,28 @@
+{
+  "name": "hormozi-offers",
+  "version": "1.0.0",
+  "description": "Operationalize Alex Hormozi's $100M Offers framework. Score any offer with the Value Equation (1–1,000,000), build irresistible Grand Slam Offers using the 8-layer stack (Delivery Cube, MAGIC naming, 14 guarantee types), and build proof stacks using the $100M Proof Hierarchy. Commands: /hormozi-offers:score-offer, /hormozi-offers:build-offer, /hormozi-offers:name-offer, /hormozi-offers:build-proof.",
+  "author": {
+    "name": "Dan Tong",
+    "email": "tongvtdan@gmail.com",
+    "url": "https://github.com/tongvtdan/hormozi-os"
+  },
+  "keywords": [
+    "hormozi",
+    "grand-slam-offer",
+    "value-equation",
+    "delivery-cube",
+    "MAGIC-naming",
+    "proof-stack",
+    "$100M-offers",
+    "offer-design",
+    "guarantee",
+    "pricing"
+  ],
+  "homepage": "https://github.com/tongvtdan/hormozi-os",
+  "repository": "https://github.com/tongvtdan/hormozi-os",
+  "license": "MIT",
+  "changelog": {
+    "1.0.0": "Initial release — Value Equation Scorer, Grand Slam Offer Builder (8-layer), MAGIC Naming Engine, Proof Stack Builder. Source: $100M Offers + $100M Proof Checklist + 7 Course Checklists."
+  }
+}

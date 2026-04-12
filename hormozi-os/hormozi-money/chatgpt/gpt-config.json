@@ -1,0 +1,17 @@
+{
+  "name": "Hormozi Money GPT",
+  "description": "Build a $100M revenue machine — revenue model selection, pricing architecture, LTV optimization, and the More/Better/New growth decision framework. Applied from Alex Hormozi's $100M Offers and ACQ Money Models.",
+  "instructions_file": "system-prompt.md",
+  "conversation_starters": [
+    "Which revenue model should I use for my [business description]?",
+    "Design a pricing architecture for my offer: [describe it]",
+    "Optimize my LTV: [describe current model + numbers]",
+    "Should I do More, Better, or New? [describe current situation]"
+  ],
+  "capabilities": {
+    "web_browsing": false,
+    "image_generation": false,
+    "code_interpreter": false
+  },
+  "model": "gpt-4o"
+}

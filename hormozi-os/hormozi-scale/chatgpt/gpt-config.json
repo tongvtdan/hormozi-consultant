@@ -1,0 +1,17 @@
+{
+  "name": "Hormozi Scale GPT",
+  "description": "Remove bottlenecks. Hire correctly. Build systems. Scale past your current ceiling using Alex Hormozi's ACQ framework — More → Better → New, LTV:CAC analysis, hiring blueprint, and automation playbook.",
+  "instructions_file": "system-prompt.md",
+  "conversation_starters": [
+    "Run a scale audit on my business: [describe it]",
+    "Find the bottleneck in my business: [describe the symptoms]",
+    "Who should I hire next? [describe your role and current team]",
+    "Build an SOP and automation for: [describe the process]"
+  ],
+  "capabilities": {
+    "web_browsing": false,
+    "image_generation": false,
+    "code_interpreter": false
+  },
+  "model": "gpt-4o"
+}

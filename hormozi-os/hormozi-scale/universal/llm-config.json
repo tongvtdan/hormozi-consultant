@@ -1,0 +1,27 @@
+{
+  "name": "hormozi-scale",
+  "version": "1.0.0",
+  "description": "Hormozi ACQ scaling framework — scale sequence, bottleneck elimination, LTV:CAC models, hiring blueprint, and automation playbook. Compatible with any OpenAI-compatible API.",
+  "system_prompt_file": "system-prompt.md",
+  "suggested_parameters": {
+    "temperature": 0.7,
+    "max_tokens": 4096,
+    "top_p": 0.95
+  },
+  "compatible_with": [
+    "openai-api",
+    "azure-openai",
+    "mistral",
+    "groq",
+    "ollama",
+    "llama-cpp",
+    "anthropic-api",
+    "cohere"
+  ],
+  "example_prompts": [
+    "Run a scale audit on my business: [describe it]",
+    "Find my bottleneck: [describe symptoms]",
+    "Who do I hire next? [describe team + tasks]",
+    "Build a system and SOP for: [describe process]"
+  ]
+}

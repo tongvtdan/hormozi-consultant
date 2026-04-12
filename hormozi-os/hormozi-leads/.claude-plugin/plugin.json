@@ -1,0 +1,28 @@
+{
+  "name": "hormozi-leads",
+  "version": "1.0.0",
+  "description": "Operationalize Alex Hormozi's $100M Leads framework. Get strangers to want to buy. Design lead magnets using the 7-step framework, activate Core Four acquisition channels (Warm→Content→Cold→Paid), break down markets using the Starving Crowd framework, and write high-converting hooks and headlines. Commands: /hormozi-leads:gen-leads, /hormozi-leads:build-magnet, /hormozi-leads:break-market, /hormozi-leads:write-hooks.",
+  "author": {
+    "name": "Dan Tong",
+    "email": "tongvtdan@gmail.com",
+    "url": "https://github.com/tongvtdan/hormozi-os"
+  },
+  "keywords": [
+    "hormozi",
+    "lead-generation",
+    "lead-magnet",
+    "core-four",
+    "warm-outreach",
+    "content-machine",
+    "paid-ads",
+    "hooks",
+    "market-analysis",
+    "$100M-leads"
+  ],
+  "homepage": "https://github.com/tongvtdan/hormozi-os",
+  "repository": "https://github.com/tongvtdan/hormozi-os",
+  "license": "MIT",
+  "changelog": {
+    "1.0.0": "Initial release — Lead Magnet Generator, Core Four Activation, Market Breakdown (Starving Crowd), Hooks & Headline Engine. Source: $100M Leads + ACQ Closer Handbook."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Hormozi Offers OS",
+  "version": "1.0.0",
+  "description": "Score, build, name, and prove irresistible offers using Alex Hormozi's $100M Offers framework. Value Equation scoring, Grand Slam Offer 8-layer stack, MAGIC naming, and Proof Stack Builder.",
+  "model": "gpt-4o",
+  "conversation_starters": [
+    "Score my offer and tell me the #1 fix",
+    "Build a Grand Slam Offer for my business",
+    "Generate 5 MAGIC names for my offer",
+    "Build a proof stack — nobody believes my results"
+  ],
+  "capabilities": { "web_browsing": true, "code_interpreter": true, "file_uploads": true },
+  "knowledge_files": [
+    "skills/offers/references/value-equation.md",
+    "skills/offers/references/grand-slam-stack.md",
+    "skills/offers/references/delivery-cube.md",
+    "skills/offers/references/proof-hierarchy.md"
+  ],
+  "setup_instructions": [
+    "1. Go to platform.openai.com/gpts → Create a GPT",
+    "2. Paste ALL of chatgpt/system-prompt.md into Instructions",
+    "3. Upload all 4 files from skills/offers/references/ as Knowledge",
+    "4. Enable Web Browsing + Code Interpreter",
+    "5. Test: 'Score my offer: 12-week coaching for SaaS founders, $5k, results in 90 days'"
+  ]
+}

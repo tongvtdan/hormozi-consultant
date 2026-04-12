@@ -1,0 +1,11 @@
+{
+  "name": "Hormozi Offers OS",
+  "version": "1.0.0",
+  "model_recommendation": "gemini-1.5-pro or gemini-2.0-flash-exp",
+  "setup_instructions": [
+    "1. Go to gemini.google.com → Gems → Create a Gem",
+    "2. Paste all of gemini/system-prompt.md into the Gem instructions",
+    "3. Optionally upload reference docs as context",
+    "4. Test with: 'Score my offer and give me the top fix'"
+  ]
+}
