@@ -1,0 +1,27 @@
+{
+  "name": "alex-skills",
+  "version": "1.0.0",
+  "description": "Alex Hormozi-style business scaling prompts: Market Breakdown, Problem Prioritization, Offer Creation, Distribution Domination, Viral Content Engine, and Scale System — engineered to take any business from $10M to $100M.",
+  "author": {
+    "name": "Dan Tong",
+    "email": "tongvtdan@gmail.com",
+    "url": "https://github.com/tongvtdan/hormozi-os"
+  },
+  "keywords": [
+    "hormozi",
+    "market-breakdown",
+    "problem-prioritization",
+    "offer-creation",
+    "distribution",
+    "viral-content",
+    "scale-system",
+    "business-scaling",
+    "$10M-to-$100M"
+  ],
+  "homepage": "https://github.com/tongvtdan/hormozi-os",
+  "repository": "https://github.com/tongvtdan/hormozi-os",
+  "license": "MIT",
+  "changelog": {
+    "1.0.0": "Initial release — 6 high-leverage Hormozi-style scaling skills: Market Breakdown, Problem Prioritization, Offer Creation, Distribution Domination, Viral Content Engine, Scale System."
+  }
+}
