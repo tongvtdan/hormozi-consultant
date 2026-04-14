@@ -1,0 +1,13 @@
+{
+  "name": "Hormozi Money OS",
+  "version": "1.0.0",
+  "model_recommendation": "qwen2.5-72b-instruct or qwen-max",
+  "platform": "Alibaba Cloud DashScope / chat.qwenlm.ai",
+  "setup_instructions": [
+    "1. Go to chat.qwenlm.ai OR Alibaba Cloud DashScope console",
+    "2. Paste all of qwen/system-prompt.md as the system prompt",
+    "3. Use qwen2.5-72b-instruct for best results; qwen-max for highest quality",
+    "4. For multilingual use: Qwen responds in the language you write in",
+    "5. Test with a real business problem in your niche"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Alex Skills OS",
+  "version": "1.0.0",
+  "description": "6 Hormozi-style scaling skills for ChatGPT: Market Breakdown, Problem Prioritization, Offer Creation, Distribution Domination, Viral Content Engine, Scale System.",
+  "model": "gpt-4o",
+  "conversation_starters": [
+    "Break down the [niche] market for me",
+    "Find the most expensive problems in [industry]",
+    "Build a high-converting offer for [problem]",
+    "Build a distribution plan to reach 1M people",
+    "Generate 20 viral hooks for [niche]",
+    "Build a scale system for my [business]"
+  ],
+  "capabilities": { "web_browsing": true, "code_interpreter": true, "file_uploads": true },
+  "setup_instructions": [
+    "1. Go to platform.openai.com/gpts → Create a GPT",
+    "2. Paste ALL of chatgpt/system-prompt.md into Instructions",
+    "3. Enable Web Browsing + Code Interpreter",
+    "4. Test: 'Break down the B2B SaaS coaching market for me'"
+  ]
+}

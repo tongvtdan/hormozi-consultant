@@ -1,0 +1,11 @@
+{
+  "name": "Alex Skills OS",
+  "version": "1.0.0",
+  "model_recommendation": "gemini-1.5-pro or gemini-2.0-flash-exp",
+  "setup_instructions": [
+    "1. Go to gemini.google.com → Gems → Create a Gem",
+    "2. Paste all of gemini/system-prompt.md into the Gem instructions",
+    "3. Enable Google Search grounding for live market data",
+    "4. Test: 'Break down the [niche] market and find the top 3 entry signals'"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Alex Skills OS",
+  "version": "1.0.0",
+  "model_recommendation": "qwen2.5-72b-instruct or qwen-max",
+  "platform": "Alibaba Cloud / Qwen Chat / DashScope API",
+  "setup_instructions": [
+    "1. Go to chat.qwenlm.ai OR Alibaba Cloud DashScope console",
+    "2. Paste all of qwen/system-prompt.md as the system prompt",
+    "3. Use qwen2.5-72b-instruct for best results; qwen-max for highest quality",
+    "4. For API: set system role message with the full system prompt content",
+    "5. Test: 'Break down the [niche] market and rank the top 3 opportunities'"
+  ],
+  "api_example": {
+    "model": "qwen2.5-72b-instruct",
+    "messages": [
+      {"role": "system", "content": "<paste qwen/system-prompt.md content here>"},
+      {"role": "user", "content": "Break down the B2B SaaS market for me"}
+    ]
+  }
+}
